@@ -9,4 +9,3 @@ class Anagram
    array.select { |a| a.split("").sort == @word.split("").sort}
  end
 end
-
